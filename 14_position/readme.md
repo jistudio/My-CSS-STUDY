@@ -4,7 +4,7 @@
 
 ### :bulb: Understand CSS position
 
-Build out Google Momentum. [Click here to see project >](https://jistudio.github.io/My_CSS_STUDY/14_position/index.html)
+Build out Google Momentum screensaver. [Click here to see project >](https://jistudio.github.io/My_CSS_STUDY/14_position/index.html)
 
-[<img src="/ASSETS/float.jpg" alt="float">](https://jistudio.github.io/My_CSS_STUDY/14_position/index.html)
+[<img src="/ASSETS/position.jpg" alt="float">](https://jistudio.github.io/My_CSS_STUDY/14_position/index.html)
 
