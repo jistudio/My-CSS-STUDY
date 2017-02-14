@@ -4,9 +4,9 @@
 # CSS box shadow & vertical align 
 
 ### :bulb: Make photogallery!
-[Click here to see the actual project](https://jistudio.github.io/Frontend_Study/0701_photogallery/index.html)
+[Click here to see project >](https://jistudio.github.io/My_CSS_STUDY/17_vertical_centering/index.html)
 
-[<img src="/ASSETS/gallery.jpg" alt="gallery">](https://jistudio.github.io/Frontend_Study/0701_photogallery/index.html)
+[<img src="/ASSETS/gallery.jpg" alt="gallery">](https://jistudio.github.io/My_CSS_STUDY/17_vertical_centering/index.html)
 
 -
 
