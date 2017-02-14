@@ -1,7 +1,7 @@
 
 ###### Front-End Develop SCHOOL
 
-# CSS Vertical mediaquery
+# CSS Mediaquery Basic
 
 ### :bulb: How to make vertical centering using CSS.
 
