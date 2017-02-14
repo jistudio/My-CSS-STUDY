@@ -6,9 +6,9 @@
 ### :bulb: Finished assignment using css attr selector 
 
 Use as many as attr selectors possible! 
-[Click here to see project >](https://jistudio.github.io/Study_CSS/18_attr_selector/index.html)
+[Click here to see project >](https://jistudio.github.io/My_CSS_STUDY/18_attr_selector/index.html)
 
-[<img src="/ASSETS/format-icon.jpg" alt="CHECK FILE FORMAT TYPE ASSIGN ICONS">](https://jistudio.github.io/Study_CSS/18_attr_selector/index.html)
+[<img src="/ASSETS/format-icon.jpg" alt="CHECK FILE FORMAT TYPE ASSIGN ICONS">](https://jistudio.github.io/My_CSS_STUDY/18_attr_selector/index.html)
 
 -
 
