@@ -1,7 +1,7 @@
 
 ###### Front-End Develop SCHOOL
 
-# SASS + Flexbox Grid
+# SASS + Flexbox Responsive Grid
 
 ### :bulb: How to make vertical centering using CSS.
 
