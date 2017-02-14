@@ -1,0 +1,10 @@
+@function getPercent($target, $context) 
+  @return $target/$context*100%
+
+
+@function strip-unit($px)
+  @return $px/(1px)
+
+@function em($unit, $base: 16)
+  $unit: strip-unit($px)
+  @return $unit/16 * 1em

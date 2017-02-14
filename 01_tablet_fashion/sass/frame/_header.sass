@@ -1,0 +1,50 @@
+.header
+	height: 106px
+	padding-top: 40px
+	background-image: url(../images/status_bar.jpg)
+	background-position: top center
+	background-size: 100%
+	@include flex-container
+
+	.page_title,
+	nav,
+	.utility
+		flex: 1 1 0
+
+	nav
+		order: -1
+		h2
+			@extend %readable-hidden
+		a
+			@extend %ir
+			width: 32px
+			height: 32px
+			margin-left: 30px
+		
+
+	.utility
+		@include flex-container($justify-content: flex-end)
+		span
+			display: block
+			width: 32px
+			height: 32px
+			margin-right: 30px
+			a
+				@extend %ir
+
+
+		
+
+
+
+
+   		
+
+
+
+
+
+	
+
+
+

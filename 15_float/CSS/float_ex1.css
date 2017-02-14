@@ -1,0 +1,58 @@
+.wrapper{
+	width:1280px;
+	margin:0 auto;
+	background-color: gold;
+}
+a{
+	text-decoration:none;
+	color:#333;
+}
+p{
+	height:327px;
+	width:50%;
+	float:left;
+}
+.a2, .a3, .a4, .a5{
+	width:50%;
+	float:left;
+}
+.intro{
+	background-color: #fff;
+	text-align:center;
+}
+.intro a{
+	display:block;
+	width:100%;
+	height:100%;
+}
+.intro a:hover ::before{
+	color:blue;
+}
+.intro:hover{
+	background-color: #FAD7D7;
+}
+
+
+
+.intro span{
+	display:block;
+}
+.intro a::before{
+	content: '';
+	border-bottom:1px solid #333;
+	display: block;
+	width:50px;
+	height:1px;
+	margin:0 auto 20px;
+}
+
+.person_name{
+	margin:70px 0 20px 0;
+	font-weight: bold;
+}
+.desc{
+	margin:0 30px 20px 30px;
+}
+.fa{
+	font-size: 20px;
+}

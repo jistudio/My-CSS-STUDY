@@ -1,0 +1,70 @@
+// header
+header 
+	width: 100%
+
+.header-top
+	background-color: $point-color
+	
+	.top-inner
+		+flex-nav
+		height: $base-line * 2
+		+mq(md)
+			padding: 0 55px
+		+mq(lg)
+			max-width: 1200px
+			margin: 0 auto
+
+
+	.utility-bar
+		+flex-nav(space-around)
+
+
+.header-botttom
+	height: $base-line * 4
+	.bottom-inner
+		+flex-nav
+		+mq(md)
+			padding: 0 55px
+		+mq(lg)
+			max-width: 1200px
+			margin: 0 auto
+
+
+	.logo-main
+		width: 400px
+		height: $base-line * 4
+		order: 1
+		@extend %center-flex 
+		background-color: #eee
+		+mq(md)
+			flex-basis: 260px
+			flex-grow: 1
+
+	.menu-btn
+		order: 2
+		+mq(md)
+			display: none
+		
+	.gnb
+		display: none
+		+mq(md)
+			display: block
+			order: 2
+			ul
+				+flex-nav(flex-end, center)
+				flex-wrap: wrap
+
+
+	.grid-btn,
+	.gnb
+		+mq(md)
+			flex-grow: 1
+			flex-basis: 200px
+
+
+
+
+
+
+	h2
+		@extend %readable-hidden 

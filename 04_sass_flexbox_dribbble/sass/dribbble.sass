@@ -1,0 +1,168 @@
+%flex
+	display: flex
+
+%position-center
+	max-width: 1200px
+	width: 100%
+	margin: 0 auto
+
+::selection
+		background-color: #ea4c89
+		color: #fff
+
+
+body
+	background-color: #f1f1f1
+	font-size: 14px
+
+header
+	background-color: #333
+
+	color: #999
+
+
+	.header-inner
+		@extend %flex
+		@extend %position-center
+		justify-content: space-between
+		align-items: center
+		padding: 0 10px
+		height: 56px
+
+		h1
+			margin-right: 20px
+			text-indent: -10000px
+		
+			width: 76px
+			height: 20px
+			background-image: url(../images/logo.png)
+
+		li
+			padding: 0 10px
+		li.search
+			padding-right: 0
+
+	.nav-wrapper,
+	.nav,
+	.user-tools
+		@extend %flex
+		align-items: center
+
+	.nav 
+		li:first-child
+			color: #fff
+
+	.user-tools
+		input
+			width: 220px
+			height: 26px
+			border: none
+			border-radius: 4px
+			color: #666
+			background-image: url(../images/icon-search.png) 
+			background-size: 14px 
+			background-position: 10px center
+			text-indent: 2em
+
+.cta
+	@extend %flex
+	justify-content: center
+	align-items: center
+	background-color: #444
+	color: #fff
+	padding: 30px
+	font-size: 16px
+
+	p
+		margin-right: 10px
+		span
+			color: #999
+
+	
+	
+
+	>span
+		display: block
+		background-color: pink
+		padding: 10px 15px
+		border-radius: 4px
+		font-size: 14px
+		margin-right: 5px
+		
+		
+
+	>span:first-child
+		background-color: #999
+
+	>span:last-child
+		background-color: #ea4c89
+
+
+main
+	@extend %position-center
+
+
+.box-container
+	@extend %flex
+	justify-content: center
+	flex-wrap: wrap
+	padding-top: 15px
+	color: #aaa
+	position: relative
+
+	h3
+		position: absolute
+		margin: 20px 0 40px
+		color: #3a8bbb
+		font-size: 13px
+		background-image: url(../images/maker.png)
+		background-size: 16px
+		text-indent: 2em
+
+
+
+		
+		
+
+	>li
+		
+		flex: 0 0 auto
+		margin: 15px 15px 40px
+		background-color: #fff
+		border-radius: 2px
+		padding: 10px
+
+
+.tool
+	@extend %flex
+	justify-content: flex-end
+	padding: 10px 0
+	li
+		text-indent: 1.3em
+		background-size: 15px 11px
+	
+		background-image: url(../images/icon-views.png)
+		background-position: left center
+		margin-left: 10px
+
+
+
+	
+		
+
+
+
+
+
+
+
+
+
+
+
+
+		
+
+
+
+

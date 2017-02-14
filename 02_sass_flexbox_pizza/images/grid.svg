@@ -1,0 +1,13 @@
+<svg id="grid.svg" xmlns="http://www.w3.org/2000/svg" width="15.594" height="15.531" viewBox="0 0 15.594 15.531">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #292929;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="M64.613,85.271H77.351a1.352,1.352,0,1,1,0,2.7H64.613A1.352,1.352,0,1,1,64.613,85.271Z" transform="translate(-63.188 -72.438)"/>
+  <path id="Shape_73_copy" data-name="Shape 73 copy" class="cls-1" d="M64.613,79.192H77.351a1.353,1.353,0,1,1,0,2.7H64.613A1.353,1.353,0,1,1,64.613,79.192Z" transform="translate(-63.188 -72.438)"/>
+  <path id="Shape_73_copy_2" data-name="Shape 73 copy 2" class="cls-1" d="M64.613,72.436H77.351a1.353,1.353,0,1,1,0,2.7H64.613A1.353,1.353,0,1,1,64.613,72.436Z" transform="translate(-63.188 -72.438)"/>
+</svg>

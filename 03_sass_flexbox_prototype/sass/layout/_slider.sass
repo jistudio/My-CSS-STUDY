@@ -1,0 +1,35 @@
+
+// main slider
+
+main
+	background-color: #f1f1f1
+	h2
+		@extend %readable-hidden 
+	+mq(lg)
+		max-width: 1200px
+		margin: 0 auto	
+
+.slider,
+.event
+	h3
+		@extend %readable-hidden 
+
+.slider
+	height: $base-line * 12
+	@extend %center-flex
+	position: relative
+	background-color: #ddd
+	p
+		align-self: center
+	span
+		display: block
+		width: 50px
+		height: $base-line * 3 
+		background-color: $point-color
+		position: absolute
+		top: 50%
+		transform: translateY(-50%)
+		&.prev
+			left: 0
+		&.next
+			right: 0

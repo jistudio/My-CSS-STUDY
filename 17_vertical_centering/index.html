@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta charset="UTF-8">
+	<title>vertical centering using css</title>
+	<link rel="stylesheet" href="Resource/common.css">
+	<link rel="stylesheet" href="Resource/reset.css">
+	<style>
+	.stage{
+		width:600px;
+		margin:0 auto;
+	}
+	h2{
+		border-left: 5px solid gold;
+    text-indent: 1em;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 150%;
+	}
+	.box{
+		width: 200px;
+		height: 200px;
+		background-color: #4918BB;
+		color: #fff;
+		font-size: 20px;
+		text-align: center;
+
+	}
+	.ex0{}
+
+
+
+
+
+
+
+	.ex1{
+		line-height: 200px;
+		background-color: #1DE415;
+	}
+	.ex2{
+		display:table-cell;
+		vertical-align: middle;
+		background-color: #F80E0E;
+			
+	}
+
+	.ex3{
+		background-color: #25DB3F;
+		line-height: 200px;
+		
+	}
+	.ex3 div{
+		
+
+
+  
+	}
+
+	</style>
+</head>
+<body>
+	<div class="stage">
+
+		<h2>0. Common code of examples</h2>
+
+		<div class="box ex0">
+			<span>Some Text</span>
+		</div>
+
+		<h2>1. Using line-height and container height</h2>
+		<div class="box ex1">
+			<span>Some Text</span>
+		</div>
+
+		<h2>2. Using display:table-cell</h2>
+		<div class="box ex2">
+			<span>Some Text</span>
+		</div>
+
+		<h2>3. Using line-height and display:inline-block</h2>
+		<div class="box ex3">
+			<div>Some Text</div>
+		</div>
+
+
+	</div>
+</body>
+</html>

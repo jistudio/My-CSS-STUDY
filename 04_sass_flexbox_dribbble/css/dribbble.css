@@ -1,0 +1,108 @@
+header .header-inner, header .nav-wrapper,
+header .nav,
+header .user-tools, .cta, .box-container, .tool {
+  display: flex; }
+
+header .header-inner, main {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto; }
+
+::selection {
+  background-color: #ea4c89;
+  color: #fff; }
+
+body {
+  background-color: #f1f1f1;
+  font-size: 14px; }
+
+header {
+  background-color: #333;
+  color: #999; }
+  header .header-inner {
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    height: 56px; }
+    header .header-inner h1 {
+      margin-right: 20px;
+      text-indent: -10000px;
+      width: 76px;
+      height: 20px;
+      background-image: url(../images/logo.png); }
+    header .header-inner li {
+      padding: 0 10px; }
+    header .header-inner li.search {
+      padding-right: 0; }
+  header .nav-wrapper,
+  header .nav,
+  header .user-tools {
+    align-items: center; }
+  header .nav li:first-child {
+    color: #fff; }
+  header .user-tools input {
+    width: 220px;
+    height: 26px;
+    border: none;
+    border-radius: 4px;
+    color: #666;
+    background-image: url(../images/icon-search.png);
+    background-size: 14px;
+    background-position: 10px center;
+    text-indent: 2em; }
+
+.cta {
+  justify-content: center;
+  align-items: center;
+  background-color: #444;
+  color: #fff;
+  padding: 30px;
+  font-size: 16px; }
+  .cta p {
+    margin-right: 10px; }
+    .cta p span {
+      color: #999; }
+  .cta > span {
+    display: block;
+    background-color: pink;
+    padding: 10px 15px;
+    border-radius: 4px;
+    font-size: 14px;
+    margin-right: 5px; }
+  .cta > span:first-child {
+    background-color: #999; }
+  .cta > span:last-child {
+    background-color: #ea4c89; }
+
+.box-container {
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 15px;
+  color: #aaa;
+  position: relative; }
+  .box-container h3 {
+    position: absolute;
+    margin: 20px 0 40px;
+    color: #3a8bbb;
+    font-size: 13px;
+    background-image: url(../images/maker.png);
+    background-size: 16px;
+    text-indent: 2em; }
+  .box-container > li {
+    flex: 0 0 auto;
+    margin: 15px 15px 40px;
+    background-color: #fff;
+    border-radius: 2px;
+    padding: 10px; }
+
+.tool {
+  justify-content: flex-end;
+  padding: 10px 0; }
+  .tool li {
+    text-indent: 1.3em;
+    background-size: 15px 11px;
+    background-image: url(../images/icon-views.png);
+    background-position: left center;
+    margin-left: 10px; }
+
+/*# sourceMappingURL=dribbble.css.map */

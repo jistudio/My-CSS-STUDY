@@ -1,0 +1,1 @@
+[7/30/2016, 6:41:03 PM] layer "checked.svg": Pattern Overlay effects are not supported by SVG export.

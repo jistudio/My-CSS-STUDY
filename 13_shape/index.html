@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>css position</title>
+    <link rel="stylesheet" href="../Resource/font-awesome/font-awesome.min.css">
+    <link rel="stylesheet" href="../Resource/reset.css">
+    <link rel="stylesheet" href="../Resource/common.css">
+    <style>
+    html {
+    	background: #fff;
+    }
+    body{
+    	background: radial-gradient(#fff, #7EF3DA,blue );
+    	height: 100vh;
+
+    }
+    .buttonset-movie-control {
+    		float: left;
+        /* 부모에 float를 주면 자식크기에 맞춰 자동으로 width, height값으로 딱 맞춰 준다.  */
+
+
+        /*width: 300px;   자로값 필요없음 */   
+        font-weight: bold;
+
+         border-top-left-radius: 50px;
+        border-bottom-left-radius: 50px;
+         border-top-right-radius: 50px;
+        border-bottom-right-radius: 50px;
+
+        position: absolute;
+        top:50vh;
+        left:50vw;
+        
+        transform:translate(-50%, -50%);  
+        /* 가운데 정렬을 위해 -margin 값대신 사용하면 박스 크기에 상관없이 가운데 정렬됨 */
+
+      
+
+    }
+    
+    .buttonset-movie-control button {
+    		float: left;
+        width: 100px;
+        height: 50px;
+        text-align: center;
+        line-height: 55px;
+        cursor: pointer;
+   
+        border: none;
+        padding: 0;
+        font-size: 18px;
+        position: relative;
+        letter-spacing:2px;
+				
+				background: #b3dced; /* Old browsers */
+				background: linear-gradient(to bottom,  #b3dced 0%,#29b8e5 50%,#bce0ee 100%); 
+		    }
+
+     .buttonset-movie-control button:hover,
+     .buttonset-movie-control button:active,
+     .buttonset-movie-control button:focus{
+
+	
+
+			 /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffa84c+0,ff7b0d+100;Orange+3D */
+				background: #ffa84c; /* Old browsers */
+				background: -moz-linear-gradient(top,  #ffa84c 0%, #ff7b0d 100%); 
+
+     }
+
+    
+   .buttonset-movie-control  .button-play {
+        border-top-left-radius: 50px;
+        border-bottom-left-radius: 50px;
+        border-right:1px solid #0B1743;
+     
+    }
+    .buttonset-movie-control  .button-pause {
+        border-right:1px solid #0B1743;
+     
+    }
+    
+    .buttonset-movie-control .button-stop {
+        border-top-right-radius: 50px;
+        border-bottom-right-radius: 50px;
+
+    }
+  	.fa{
+  		font-size: 8px;
+  		position:absolute;
+  		top:10px;
+  		left:22px;
+  	}
+    </style>
+</head>
+
+<body>
+
+<div class="buttonset-movie-control">
+ <button class="button-play" type="button">
+   <span aria-hidden="true" class="fa fa-play">
+		
+	 </span aria-hidden="true">
+	 play
+	<!-- play 텍스트가 없을땐 aria-label="play"로 넣어준다.
+	-->
+		
+	</button> 
+	<button class="button-pause" type="button">
+		<span aria-hidden="true" class="fa fa-pause">
+		
+		</span aria-hidden="true">
+			pause
+	</button>
+
+	<button class="button-stop" type="button">
+		<span aria-hidden="true" class="fa fa-stop">
+			
+		</span aria-hidden="true">
+		stop
+	</button>
+</div>
+	
+</body>
+</html>

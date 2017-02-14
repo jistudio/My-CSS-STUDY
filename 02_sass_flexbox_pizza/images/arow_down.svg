@@ -1,0 +1,36 @@
+<svg id="arow_down.svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="23.281" height="23.41" viewBox="0 0 23.281 23.41">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #944d1f;
+        filter: url(#filter);
+      }
+
+      .cls-1, .cls-2 {
+        fill-rule: evenodd;
+        mix-blend-mode: multiply;
+      }
+
+      .cls-2 {
+        fill: #934d1f;
+        filter: url(#filter-2);
+      }
+    </style>
+    <filter id="filter" x="598.719" y="1014.59" width="23.281" height="15.41" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dx="0.5" dy="0.866" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="1"/>
+      <feFlood result="flood" flood-color="#fff" flood-opacity="0.75"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+    </filter>
+    <filter id="filter-2" x="598.719" y="1006.59" width="23.281" height="15.41" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dx="0.5" dy="0.866" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="1"/>
+      <feFlood result="flood" flood-color="#fff" flood-opacity="0.75"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <path id="_lt_copy" data-name="&amp;lt copy" class="cls-1" d="M608.57,1022.88l-8.287-8.29-1.576,1.58,9.863,9.86,9.862-9.86-1.575-1.58Z" transform="translate(-598.719 -1006.59)"/>
+  <path id="_lt_copy_2" data-name="&amp;lt copy 2" class="cls-2" d="M608.57,1014.88l-8.287-8.29-1.576,1.58,9.863,9.86,9.862-9.86-1.575-1.58Z" transform="translate(-598.719 -1006.59)"/>
+</svg>

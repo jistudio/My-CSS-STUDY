@@ -1,0 +1,134 @@
+.header
+	position: relative
+	z-index: 10
+
+.logo
+	max-width: 184px
+	width: 100%
+	height: 0
+	position: absolute
+	left: 50%
+	top: $base-line * 2 + 9px
+	z-index: 20
+	transform: translateX(-50%)
+	& a
+		display: block
+		width: 100%
+		height: 0
+		text-indent: -99999%
+		padding-bottom: getPercent(172,340)
+		background-image: url(../images/logo.png)
+		background-size: 100%
+	+mq(md)
+		max-width: 240px
+		top: $base-line * 2 + 21px
+	+mq(lg)
+		max-width: 340px
+		top: $base-line * 2 
+		& a
+			background-image: url(../images/logo_desktop.png)
+
+
+
+.header-top
+	background: linear-gradient(90deg, $point-color 50%, darken($point-color, 10%) 50%)
+	background-repeat: repeat
+	background-size: 60px 1px
+
+	
+.top-inner
+	+flex-nav
+	height: $base-line * 2
+	+mq(md)
+		padding: 0 30px
+	+mq(lg)
+		max-width: 1200px
+		margin: 0 auto
+
+.logo-sub
+	a
+		padding-left: 15px
+.utility-bar
+	+flex-nav(space-around)
+	a
+		padding: 0 10px
+	
+
+
+.header-botttom
+	box-shadow: 0px 1px 2px 2px rgba(0,0,0,0.15)
+
+	.bottom-inner
+		height: $base-line * 2
+		padding: 0 12px
+		+flex-nav
+		+mq(md)
+			height: $base-line * 3
+			padding: 0 45px
+		
+		+mq(lg)
+			max-width: 1200px
+			margin: 0 auto
+
+
+
+
+	.grid-btn,
+	.menu-btn
+		button
+			+btn-style
+
+	
+
+	.menu-btn
+		order: 2
+		+mq(lg)
+			display: none
+		
+	.gnb
+		display: none
+		+mq(lg)
+			display: block
+			order: 2
+			ul
+				+flex-nav(flex-end)
+				a
+					display: block
+					width: 100%
+					heightL 100%
+					padding: 30px 15px 0px
+					color: $point-color
+					background-size: 25%
+					background-repeat: no-repeat
+					background-position: center 25%
+
+				li:nth-child(1)
+					a
+						background-image: url(../images/about.png)
+				li:nth-child(2)
+					a
+						background-image: url(../images/menu.png)
+				li:nth-child(3)
+					a
+						background-image: url(../images/event.png)
+				li:last-child
+					a
+						padding-right: 0
+						background-image: url(../images/community.png)
+						
+
+
+
+	.grid-btn,
+	.gnb
+		+mq(md)
+			flex-grow: 1
+			flex-basis: 200px
+
+
+
+
+
+
+	h2
+		@extend %readable-hidden 

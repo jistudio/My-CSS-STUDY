@@ -1,0 +1,33 @@
+main
+	h2
+		@extend %readable-hidden 
+
+.tab_menu
+	h3
+		@extend %readable-hidden
+
+.tab 
+	height: rem(100px, $base-font-size) 
+	background-color: $base_color_light
+	@include flex-container
+	border-bottom: 1px solid $border-color
+	li
+		flex: 1 1 0
+		text-align: center
+		text-transform: uppercase
+		a
+			color: $base_color
+			padding: rem(34px, $base-font-size)
+			&:hover,
+			&.tab_on
+				@extend %tab_on
+.splash
+	@include flex-container($justify-content: space-around)
+	li
+		flex: 1 1 50%
+		padding-top: rem(30px, $base-font-size)
+
+			
+			
+
+	

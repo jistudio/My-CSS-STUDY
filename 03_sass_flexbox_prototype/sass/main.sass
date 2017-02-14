@@ -1,0 +1,37 @@
+@import var
+// import  webfont + 보관법 #{} 
+@import url("https://fonts.googleapis.com/css?family=#{$opnesans-font-family}")
+@import url("https://fonts.googleapis.com/css?family=#{$tangerine-font-family}:#{$tangerine-font-weight}")
+@import url("https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-#{$spoqa-language}.css")
+
+
+// global
+@import ../../Resources/sass/normalize
+@import ../../Resources/sass/common
+@import mixin
+@import typo
+@import function
+
+
+// layout
+
+@import layout/header
+@import layout/slider
+@import layout/event
+@import layout/info
+@import layout/about
+@import layout/footer
+
+
+
+
+
+// mediaquery 
+// +mq(sm) 
+// 	width: 100%
+
+// +mq(md) 
+// 	width: 100%
+
+// +mq(lg) 
+//   width: 100%

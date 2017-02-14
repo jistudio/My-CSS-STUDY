@@ -1,0 +1,17 @@
+<svg id="notice" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #1f4ba5;
+      }
+
+      .cls-2 {
+        font-size: 9px;
+        fill: #fff;
+        font-family: VarelaRound;
+      }
+    </style>
+  </defs>
+  <circle id="bg-circle" class="cls-1" cx="8" cy="8" r="8"/>
+  <text id="_3" data-name="3" class="cls-2" x="5.5" y="11">3</text>
+</svg>

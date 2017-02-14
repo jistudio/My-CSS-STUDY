@@ -1,0 +1,25 @@
+.slippers
+	background-color: $base_color_light
+	border-top: 1px solid $border-color
+	border-bottom: 1px solid $border-color
+	padding: rem(50px, $base-font-size)
+	padding-right: 0
+	ul
+		@include flex-container( no-wrap, space-between, flex-start)
+		margin-top: rem(50px, $base-font-size)
+		li
+			&:nth-child(1)
+				flex: 2 1 0
+				margin-right: 12%
+				
+			&:nth-child(2)
+				flex: 2 1 0
+				margin-right: 6%
+
+			&:nth-child(3)
+				flex: 1 1 0
+				margin-left: 6%
+				text-align: right
+			strong
+				margin-top:  rem(30px, $base-font-size) 
+

@@ -1,0 +1,59 @@
+footer
+	.footer-inner
+		+flex-nav
+		flex-wrap: wrap
+		background-color: #4a5d75
+		color: #fff
+		+mq(md)
+			padding: 0 55px
+		+mq(lg)
+			max-width: 1200px
+			margin: 0 auto
+			
+
+		a
+			color: #fff
+		.contact,
+		address, 
+		.sns,
+		.copyright
+			height: $base-line * 2
+
+		
+
+.contact,
+address,
+.sns,
+.copyright
+	+flex-nav(center)
+
+
+
+.contact
+	width: 100%
+	+mq(md)
+		width: auto
+		flex-grow: 1
+		justify-content: flex-end
+		background-color: #666
+
+	li
+		flex-grow: 1
+		text-align: center
+		+mq(md)
+			flex-grow: 0
+			text-align: right
+
+		
+
+
+address
+	+mq(md)
+		order: -1
+
+.copyright
+	width: 100%
+	height: $base-line *2
+	background-color: #333
+	color: #fff
+		

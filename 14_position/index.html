@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>SCREEN SAVOR</title>
+    <link rel="stylesheet" href="Resource/reset.css">
+    <link rel="stylesheet" href="Resource/common.css">
+    <style>
+   
+    
+    .wrapper {
+        width: 100%;
+        height:100vh;
+        text-align: center;
+        color: #fff;
+        position: relative;
+     
+        padding-top: 230px;
+         background: url(image/screen_saver.jpg) no-repeat;
+        background-size: 100%;
+    }
+    
+    .time {
+        font-size: 140px;
+        font-weight: bold;
+        
+    }
+    
+    .good {
+        font-size: 40px;
+        margin-bottom:70px; 
+
+    }
+    
+    .question {
+        font-size: 30px;
+       
+        margin-bottom:40px; 
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 50px;
+        border-bottom: 1px solid #fff;
+        width: 33%;
+    }
+    
+    .quote {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+
+
+    .utility{
+    	width:150px;
+    	position:absolute;
+    
+    	
+    }
+    .utility.link{
+			top:10px;
+			left:20px;
+    }
+
+    .utility.weather{
+			top:10px;
+			right:0;
+			width:100px;
+    }
+    .utility.weather span{
+			display:block;
+
+    }
+    .utility.weather .temp{
+    	font-size: 30px;
+    }
+    .utility.weather .seoul{
+			font-size:12px;
+			margin-top: -25px;
+    }
+    .utility.place{
+			bottom:10px;
+			left:30px;
+    }
+    .utility.todo{
+			bottom:10px;
+			right: 0;
+			width: 120px;
+    }
+    .utility a{
+    	display:block;
+    	width:100%;
+    	height:50px;
+    	line-height:50px;
+    	padding:0 10px;
+    	text-decoration: none;
+    	color: #fff;
+   
+    }
+    .search a{
+
+			background: url("image/search.svg") no-repeat left center;
+  		
+  	  background-size: 1.5rem;
+    }
+    .weather a{
+			background: url("image/cloud.svg") no-repeat left center;
+
+  	  background-size: 1.5rem;
+    }
+    .place a{
+    	background: url("image/location.svg") no-repeat left center;
+
+  	  background-size: 1.5rem;
+    }
+
+    .utility.link span{
+    	display: block;
+    	width:50%;
+    	float:left;
+    }
+   
+    	
+
+    	
+ 
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="time">
+            5:40
+        </div>
+        <div class="good">
+            Good Evening, Jihye
+        </div>
+        <div class="question">
+            What is your main focus today?
+          
+        </div>
+        <div class="quote">
+            "Rules for happiness: something to do, someone to love, something to hope for"
+        </div>
+
+
+
+
+        <div class="utility link clearfix">
+            <span><a href="#">links</a></span>
+            <span class="search ir"><a href="#">search</a></span>
+        </div>
+        <div class="utility weather">
+						<a href="#">
+	            
+	            <span class="temp">21 </span>
+	            <span class="seoul">SEOUL</span>
+            </a>
+        </div>
+        <div class="utility place">
+        	 <a href="#">
+	            
+	            <span>Seoul, Korea</span>
+            </a>
+        </div>
+
+        <div class="utility todo">
+        	<a href="#">
+        		<span>Todo</span>
+        	</a>
+        </div>
+       
+    </div>
+</body>
+
+</html>
