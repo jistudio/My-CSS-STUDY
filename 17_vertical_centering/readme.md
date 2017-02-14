@@ -5,9 +5,9 @@
 
 ### :bulb: How to make vertical centering using CSS.
 
-Study different methods to make vertical align with CSS. [Click here to see the actual project](https://jistudio.github.io/Frontend_Study/0629_css_vertical_centering/index.html)
+Study different methods to make vertical align with CSS. [Click here to see project >](https://jistudio.github.io/My_CSS_STUDY/17_vertical_centering/index.html)
 
-[<img src="/ASSETS/vertical.jpg" alt="vertical align">](https://jistudio.github.io/Frontend_Study/0629_css_vertical_centering/index.html)
+[<img src="/ASSETS/vertical.jpg" alt="vertical align">](https://jistudio.github.io/My_CSS_STUDY/17_vertical_centering/index.html)
 
 -
 
