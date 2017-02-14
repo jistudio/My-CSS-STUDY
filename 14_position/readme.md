@@ -1,6 +1,6 @@
 ###### Front-End Develop SCHOOL
 
-# CSS Float
+# CSS Position
 
 ### :bulb: Understand CSS position
 
