@@ -1,7 +1,7 @@
 ###### Front-end Development Step by Step
 # CSS Study
 
-### INTRODUCE
+### :bulb: INTRODUCE
 
 It is a place where I stored my work + assiggments dring my study at Fast Campus.<br>
 Essential skills and concepts include following:
