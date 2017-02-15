@@ -1,7 +1,7 @@
 
 ###### Front-End Develop SCHOOL
 
-# Responsive web using Flexbox and minimum use of mediaquery
+# Responsive using Flexbox and minimum use of mediaquery
 
 ### :bulb: How to make vertical centering using CSS.
 
