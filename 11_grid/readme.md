@@ -11,7 +11,7 @@
 
 -
 
-### :musical_note: references to vertical centering 
+### :musical_note: references
 
 - [The Use of Grids in Website Design](http://www.designer-daily.com/the-use-of-grids-in-website-design-6639)
 
