@@ -13,7 +13,8 @@ Please check out my gh-pages branch to see more work samples, code and project d
 [1 Tablet Fashion Site with SASS + Flexbox >](https://jistudio.github.io/My_CSS_STUDY/01_tablet_fashion/index.html)
 
 [<img src="/ASSETS/fashion_sm.jpg" alt="vertical align">]
-(https://jistudio.github.io/My_CSS_STUDY/01_tablet_fashion/index.html)
+(https://jistudio.github.io/My_CSS_STUDY/01_tablet_fashion/index.html)<br>
+
 
 [2 Resposive Food Webite with SASS + Flexbox >](https://jistudio.github.io/My_CSS_STUDY/02_sass_flexbox_pizza/index.html)
 
