@@ -1,5 +1,5 @@
 
-###### Front-End Develop SCHOOL
+###### Front-End Develop
 
 # Tablet Fashion site
 
