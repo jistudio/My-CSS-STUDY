@@ -4,7 +4,7 @@
 ### :bulb: INTRODUCE
 
 It is a place where I stored my work + assiggments dring my study at Fast Campus.<br>
-Essential skills and concepts including following:
+Essential skills and concepts includes following:
 
 - CSS styling
 - Pseudo-element
