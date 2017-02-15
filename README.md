@@ -3,7 +3,25 @@
 
 ### INTRODUCE
 
-It is a place where I stored my work + assiggments dring my study at Fast Campus.
+It is a place where I stored my work + assiggments dring my study at Fast Campus.<br>
+Contents include following:
+
+- HTML5 structure
+- CSS styling
+- web typography
+- grid system
+- float
+- positioning
+- flexbox
+- mediaquery
+- responsive web
+- mobile first
+- em, rem, %, vw, vh
+- box model
+- SASS
+- flexbox
+- modules
+
 
 -
 
