@@ -1,7 +1,7 @@
 ###### Front-end Development Step by Step
 # CSS Study
 
-![open-img](ASSETS/fashion_sm.jpg)
+![open-img](ASSETS/open-img.jpg)
 
 ### INTRODUCE
 
@@ -11,7 +11,7 @@ It is a place where I stored my work + assiggments dring my study at Fast Campus
 
 <h3 title="list">Table of Contents</h3>
 - 01_tablet_fashion	
-[<img src="/ASSETS/fashion.jpg" alt="vertical align">](https://jistudio.github.io/My_CSS_STUDY/01_tablet_fashion/index.html)
+[<img src="/ASSETS/fashion_sm.jpg" alt="vertical align">](https://jistudio.github.io/My_CSS_STUDY/01_tablet_fashion/index.html)
 - 02_sass_flexbox_pizza	
 - 03_sass_flexbox_prototype
 - 04_sass_flexbox_dribbble
