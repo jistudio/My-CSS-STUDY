@@ -3,7 +3,7 @@
 
 # Responsive website using SASS, Flexbox and minimum use of mediaquery
 
-### :bulb: Practice to build out RWD
+### :bulb: Use Mostly Fluid and Column Drop RWD pattern
 
 [Click here to see project >](https://jistudio.github.io/My_CSS_STUDY/02_sass_flexbox_pizza/index.html)
 
