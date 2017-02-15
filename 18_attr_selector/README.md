@@ -1,5 +1,5 @@
 
-###### Front-End Develop SCHOOL
+###### Front-End Development
 
 # CSS Selector Level 3
 
@@ -70,3 +70,13 @@ element1~element2		| p ~ ul		| Selects every `<ul>` element that are preceded by
 :target		| #news:target	| 	Selects the current active #news element (clicked on a URL containing that anchor name)		| 3
 :valid	| 	input:valid		| Selects all input elements with a valid value		| 3
 :visited	| 	a:visited	| 	Selects all visited links	| 	1
+
+-
+
+
+
+
+
+Copyright © 2017 jistudio <rjhhere@hotmail.com> 
+
+
