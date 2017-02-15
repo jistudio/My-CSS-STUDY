@@ -6,7 +6,6 @@
 It is a place where I stored my work + assiggments dring my study at Fast Campus.<br>
 Contents include following:
 
-- HTML5 structure
 - CSS styling
 - web typography
 - grid system
@@ -19,8 +18,9 @@ Contents include following:
 - em, rem, %, vw, vh
 - box model
 - SASS
-- flexbox
 - modules
+- vertical rhythem
+- gulp automation
 
 
 -
