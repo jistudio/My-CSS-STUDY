@@ -1,4 +1,4 @@
-###### Front-End Develop SCHOOL
+###### Front-End Development
 
 # CSS Position
 
