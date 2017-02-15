@@ -1,7 +1,7 @@
 
 ###### Front-End Develop SCHOOL
 
-# CSS Vertical Centering
+# Responsive Layout using Flexbox
 
 ### :bulb: How to make vertical centering using CSS.
 
