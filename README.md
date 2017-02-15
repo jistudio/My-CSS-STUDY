@@ -8,7 +8,7 @@ It is a place where I stored my work + assiggments dring my study at Fast Campus
 -
 
 ### :last_quarter_moon_with_face: Some of my work samples using CSS.
-Please check out my gh-pages branch to see more work samples, code and project details.
+Please check out [my gh-pages] (https://github.com/jistudio/My_CSS_STUDY/tree/gh-pages) branch to see more work samples, code and project details.
 
 [1 Tablet Fashion Site with SASS + Flexbox >](https://jistudio.github.io/My_CSS_STUDY/01_tablet_fashion/index.html)
 
