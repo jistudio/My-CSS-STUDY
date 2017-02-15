@@ -1,5 +1,5 @@
 
-###### Front-End Develop
+###### Front-End Development
 
 # Tablet Fashion site
 
