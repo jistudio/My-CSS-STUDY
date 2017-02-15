@@ -1,5 +1,5 @@
 ###### Front-end Development Step by Step
-# Frontend Study
+# CSS Study
 
 ![open-img](ASSETS/open-img.jpg)
 
