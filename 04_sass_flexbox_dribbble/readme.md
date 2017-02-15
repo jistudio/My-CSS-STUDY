@@ -1,9 +1,9 @@
 
 ###### Front-End Development
 
-# SASS + Flexbox Responsive Grid
+# Dribble website with SASS + Flexbox Responsive Grid
 
-### :bulb: Make an existing website, Dribble using SASS 
+### :bulb: Make an existing website, Dribble
 
 [Click here to see project >](https://jistudio.github.io/My_CSS_STUDY/04_sass_flexbox_dribbble/index.html)
 
