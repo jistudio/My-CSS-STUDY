@@ -32,10 +32,10 @@ Essential skills and concepts including following:
 ### :last_quarter_moon_with_face: Some of my work samples
 Please check out my [gh-pages] (https://github.com/jistudio/My_CSS_STUDY/tree/gh-pages) to see more work samples, code and project details.
 
-[1 Tablet Fashion Site with SASS + Flexbox >](https://jistudio.github.io/My_CSS_STUDY/01_tablet_fashion/index.html)
+[1 Responsive Website Indulge with CSS Mediaquery >](https://jistudio.github.io/My_CSS_STUDY/05_responsive_indulge/index.html)
 
-[<img src="/ASSETS/fashion_sm.jpg" alt="vertical align">]
-(https://jistudio.github.io/My_CSS_STUDY/01_tablet_fashion/index.html)
+[<img src="/ASSETS/indulge_sm.jpg" alt="vertical align">]
+(https://jistudio.github.io/My_CSS_STUDY/05_responsive_indulge/index.html)
 
 -
 
@@ -55,30 +55,27 @@ Please check out my [gh-pages] (https://github.com/jistudio/My_CSS_STUDY/tree/gh
 
 -
 
+[4 Tablet Fashion Site with SASS + Flexbox >](https://jistudio.github.io/My_CSS_STUDY/01_tablet_fashion/index.html)
 
-[4 Responsive Website Indulge with CSS Mediaquery >](https://jistudio.github.io/My_CSS_STUDY/05_responsive_indulge/index.html)
-
-[<img src="/ASSETS/indulge_sm.jpg" alt="vertical align">]
-(https://jistudio.github.io/My_CSS_STUDY/05_responsive_indulge/index.html)
-
--
-
-
-[5 Button Effect & Animation >](https://jistudio.github.io/My_CSS_STUDY/07_button_effect/index.html)
-
-[<img src="/ASSETS/button_sm.jpg" alt="vertical align">]
-(https://jistudio.github.io/My_CSS_STUDY/07_button_effect/index.html)
+[<img src="/ASSETS/fashion_sm.jpg" alt="vertical align">]
+(https://jistudio.github.io/My_CSS_STUDY/01_tablet_fashion/index.html)
 
 -
 
-
-[6 Static E-commerce Website Aware >](https://jistudio.github.io/My_CSS_STUDY/08_fixed_aware/index.html)
+[5 Static E-commerce Website Aware >](https://jistudio.github.io/My_CSS_STUDY/08_fixed_aware/index.html)
 
 [<img src="/ASSETS/aware_sm.jpg" alt="vertical align">]
 (https://jistudio.github.io/My_CSS_STUDY/08_fixed_aware/index.html)
 
 -
 
+
+[6 Button Effect & Animation >](https://jistudio.github.io/My_CSS_STUDY/07_button_effect/index.html)
+
+[<img src="/ASSETS/button_sm.jpg" alt="vertical align">]
+(https://jistudio.github.io/My_CSS_STUDY/07_button_effect/index.html)
+
+-
 
 
 [7 1200 Grid System >](https://jistudio.github.io/My_CSS_STUDY/10_grid1200/index.html)
