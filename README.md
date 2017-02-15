@@ -11,8 +11,8 @@ It is a place where I stored my work + assiggments dring my study at Fast Campus
 
 <h3 title="list">See my sample works with CSS </h3>
 
-[01 tablet fashion site]
-[Click here to see project >]
+[01 tablet fashion site](https://jistudio.github.io/My_CSS_STUDY/01_tablet_fashion/index.html)
+
 [<img src="/ASSETS/fashion_sm.jpg" alt="vertical align">]
 (https://jistudio.github.io/My_CSS_STUDY/01_tablet_fashion/index.html)
 
