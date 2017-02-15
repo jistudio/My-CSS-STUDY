@@ -1,7 +1,7 @@
 
 ###### Front-End Develop SCHOOL
 
-# PSD to HTML & CSS
+# Tablet Fashion site using SASS and Flexbox
 
 ### :bulb: How to make vertical centering using CSS.
 
