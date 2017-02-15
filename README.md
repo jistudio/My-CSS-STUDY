@@ -1,7 +1,7 @@
 ###### Front-end Development Step by Step
 # CSS Study
 
-![open-img](ASSETS/open-img.jpg)
+![open-img](ASSETS/fashion_sm.jpg)
 
 ### INTRODUCE
 
