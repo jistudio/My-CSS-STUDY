@@ -1,11 +1,14 @@
-###### Front-End Develop SCHOOL
+###### Front-End Development
 
-# CSS Vertical Rhythem
+# CSS UI KIT using Vertical Rhythem 
 
-### :bulb: How to make vertical Vertical Rhythem using CSS.
+### :bulb: Understand Vertical Rhythem and baseline
 
-Study different methods to make vertical align with CSS. [Click here to see project >](https://jistudio.github.io/My_CSS_STUDY/12_uikit/index.html)
+[Click here to see project >](https://jistudio.github.io/My_CSS_STUDY/12_uikit/index.html)
 
 [<img src="/ASSETS/ui.jpg" alt="vertical align">](https://jistudio.github.io/My_CSS_STUDY/12_uikit/index.html)
 
 -
+
+
+Copyright © 2017 jistudio <rjhhere@hotmail.com> 
