@@ -10,9 +10,9 @@ It is a place where I stored my work + assiggments dring my study at Fast Campus
 -
 
 ### :last_quarter_moon_with_face: Here are some of my work sample with CSS.
-Please check out my gh-pages branch to see more work sample, code and project details.
+Please check out my gh-pages branch to see more work samples, code and project details.
 
-[01 tablet fashion site >](https://jistudio.github.io/My_CSS_STUDY/01_tablet_fashion/index.html)
+[- 01 tablet fashion site >](https://jistudio.github.io/My_CSS_STUDY/01_tablet_fashion/index.html)
 
 [<img src="/ASSETS/fashion_sm.jpg" alt="vertical align">]
 (https://jistudio.github.io/My_CSS_STUDY/01_tablet_fashion/index.html)
