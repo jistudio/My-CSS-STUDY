@@ -1,11 +1,11 @@
 
-###### Front-End Develop SCHOOL
+###### Front-End Development
 
-# CSS Grid System
+# CSS Grid & Column
 
-### :bulb: How to make vertical centering using CSS.
+### :bulb: Make 3 column layout
 
-Study different methods to make vertical align with CSS. [Click here to see project >](https://jistudio.github.io/My_CSS_STUDY/11_grid/index.html)
+[Click here to see project >](https://jistudio.github.io/My_CSS_STUDY/11_grid/index.html)
 
 [<img src="/ASSETS/grid.jpg" alt="vertical align">](https://jistudio.github.io/My_CSS_STUDY/11_grid/index.html)
 
@@ -13,6 +13,8 @@ Study different methods to make vertical align with CSS. [Click here to see proj
 
 ### :musical_note: references to vertical centering 
 
-- [W3C CENTERING THINGS](https://www.w3.org/Style/Examples/007/center.en.html)
-- [Vertical align anything with just 3 lines of CSS](http://zerosixthree.se/vertical-align-anything-with-just-3-lines-of-css/)
-- [Centering in CSS: A Complete Guide](https://css-tricks.com/centering-css-complete-guide/)
+- [The Use of Grids in Website Design](http://www.designer-daily.com/the-use-of-grids-in-website-design-6639)
+
+
+
+Copyright © 2017 jistudio <rjhhere@hotmail.com> 
