@@ -10,7 +10,7 @@ It is a place where I stored my work + assiggments dring my study at Fast Campus
 -
 
 <h3 title="list">Table of Contents</h3>
-- 01_tablet_fashion	
+- 01_tablet_fashion	<br>
 [<img src="/ASSETS/fashion_sm.jpg" alt="vertical align">](https://jistudio.github.io/My_CSS_STUDY/01_tablet_fashion/index.html)
 - 02_sass_flexbox_pizza	
 - 03_sass_flexbox_prototype
