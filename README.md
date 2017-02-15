@@ -4,14 +4,14 @@
 ### INTRODUCE
 
 It is a place where I stored my work + assiggments dring my study at Fast Campus.<br>
-Skills and concepts include following:
+Essential skills and concepts include following:
 
 - CSS styling
 - Pseudo-element
 - web typography
 - grid system
 - animation
-- shape
+- CSS shape
 - float
 - position
 - flexbox
