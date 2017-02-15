@@ -4,16 +4,19 @@
 ### INTRODUCE
 
 It is a place where I stored my work + assiggments dring my study at Fast Campus.<br>
-Contents include following:
+Skills and concepts include following:
 
 - CSS styling
+- Pseudo-element
 - web typography
 - grid system
+- animation
+- shape
 - float
-- positioning
+- position
 - flexbox
 - mediaquery
-- responsive web
+- responsive
 - mobile first
 - em, rem, %, vw, vh
 - box model
