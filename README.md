@@ -72,7 +72,7 @@ Please check out my [gh-pages] (https://github.com/jistudio/My_CSS_STUDY/tree/gh
 -
 
 
-[6 Static Website Aware >](https://jistudio.github.io/My_CSS_STUDY/08_fixed_aware/index.html)
+[6 Static E-commerce Website Aware >](https://jistudio.github.io/My_CSS_STUDY/08_fixed_aware/index.html)
 
 [<img src="/ASSETS/aware_sm.jpg" alt="vertical align">]
 (https://jistudio.github.io/My_CSS_STUDY/08_fixed_aware/index.html)
