@@ -9,7 +9,7 @@ It is a place where I stored my work + assiggments dring my study at Fast Campus
 
 -
 
-### :last_quarter_moon_with_face: Here are some of my work sample with CSS.
+### :last_quarter_moon_with_face: Some of my work samples using CSS.
 Please check out my gh-pages branch to see more work samples, code and project details.
 
 [01 Tablet Fashion Site with SASS + Flexbox >](https://jistudio.github.io/My_CSS_STUDY/01_tablet_fashion/index.html)
