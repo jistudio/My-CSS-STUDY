@@ -1,18 +1,15 @@
 
-###### Front-End Develop SCHOOL
+###### Front-End Development
 
-# CSS Vertical Centering
+# CSS Grid System with Push & Pull
 
-### :bulb: How to make vertical centering using CSS.
+### :bulb: Understand to use margin and padding
 
-Study different methods to make vertical align with CSS. [Click here to see project >](https://jistudio.github.io/My_CSS_STUDY/09_grid_pushpull/index.html)
+[Click here to see project >](https://jistudio.github.io/My_CSS_STUDY/09_grid_pushpull/index.html)
 
 [<img src="/ASSETS/push_pull.jpg" alt="vertical align">](https://jistudio.github.io/My_CSS_STUDY/09_grid_pushpull/index.html)
 
 -
 
-### :musical_note: references to vertical centering 
 
-- [W3C CENTERING THINGS](https://www.w3.org/Style/Examples/007/center.en.html)
-- [Vertical align anything with just 3 lines of CSS](http://zerosixthree.se/vertical-align-anything-with-just-3-lines-of-css/)
-- [Centering in CSS: A Complete Guide](https://css-tricks.com/centering-css-complete-guide/)
+Copyright © 2017 jistudio <rjhhere@hotmail.com> 
