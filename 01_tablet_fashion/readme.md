@@ -3,7 +3,7 @@
 
 # Tablet Fashion site
 
-### :bulb: Build out flexble layout using SASS + Flexbox.
+### :bulb: Understand mobile first and tablet website
 
 [Click here to see project >](https://jistudio.github.io/My_CSS_STUDY/01_tablet_fashion/index.html)
 
