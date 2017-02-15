@@ -9,6 +9,7 @@ Essential skills and concepts include following:
 - CSS styling
 - Pseudo-element
 - web typography
+- baseline
 - grid system
 - animation
 - CSS shape
