@@ -11,6 +11,6 @@
 
 -
 
-### :musical_note: references to vertical centering 
+### :musical_note: references
 
 - [Responsive Web Design Patterns](https://developers.google.com/web/fundamentals/design-and-ui/responsive/patterns)
