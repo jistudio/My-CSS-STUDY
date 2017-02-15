@@ -1,7 +1,7 @@
 
 ###### Front-End Development
 
-# Wireframe using 1200 grid
+# 1200 Grid System
 
 ### :bulb: Understand different web grid systems - 960grid, 1200grid, etc
 
