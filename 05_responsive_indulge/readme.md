@@ -13,7 +13,4 @@
 
 ### :musical_note: references to vertical centering 
 
-- [W3C CENTERING THINGS](https://www.w3.org/Style/Examples/007/center.en.html)
-- [Vertical align anything with just 3 lines of CSS](http://zerosixthree.se/vertical-align-anything-with-just-3-lines-of-css/)
-- [Centering in CSS: A Complete Guide](https://css-tricks.com/centering-css-complete-guide/)
-
+- [Responsive Web Design Patterns](https://developers.google.com/web/fundamentals/design-and-ui/responsive/patterns)
