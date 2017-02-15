@@ -81,7 +81,7 @@ Please check out my [gh-pages] (https://github.com/jistudio/My_CSS_STUDY/tree/gh
 
 
 
-[7 Grid System 1200px >](https://jistudio.github.io/My_CSS_STUDY/10_grid1200/index.html)
+[7 1200 Grid System >](https://jistudio.github.io/My_CSS_STUDY/10_grid1200/index.html)
 
 [<img src="/ASSETS/grid_sm.jpg" alt="vertical align">]
 (https://jistudio.github.io/My_CSS_STUDY/10_grid1200/index.html)
