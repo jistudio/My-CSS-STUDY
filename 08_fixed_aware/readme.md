@@ -7,7 +7,7 @@
 
 [Click here to see project >](https://jistudio.github.io/My_CSS_STUDY/08_fixed_aware/index.html)
 
-[<img src="/ASSETS/aware.jpg" alt="vertical align">](https://jistudio.github.io/My_CSS_STUDY/08_fixed_aware/index.html)
+[<img src="/ASSETS/ordinary.jpg" alt="vertical align">](https://jistudio.github.io/My_CSS_STUDY/08_fixed_aware/index.html)
 
 -
 
