@@ -36,7 +36,7 @@ h6 {
 h1.logo {
     width: 240px;
     height: 20px;
-    text-indent: -9999px;
+    text-indent: 70px;
     float: left;
 }
 
@@ -44,8 +44,13 @@ h1.logo a {
     display: block;
     width: 100%;
     height: 100%;
-    background: url("../image/svg-logo-aware.png") no-repeat 56% 50%;
-    background-size: 97px 20px;
+    color:  #1f4ba5;
+    
+  /*  background: url("../image/svg-logo-aware.png") no-repeat 56% 50%;*/
+    /*background-size: 97px 20px;*/
+    text-decoration: none;
+    font-size: 20px;
+    
 }
 
 nav.gnb {
@@ -468,8 +473,11 @@ main .brand {
     margin-top: 12px;
     line-height: 16px;
 }
-.testi_about{
-
+.testimonial.unit-4 {
+    border-left: 1px solid #ddd;
+   
+    width: 479px;
+   
 }
 .testimonial{
   padding-top: 34px;
@@ -495,6 +503,11 @@ main .brand {
     background: url(../image/svg/svg-icon-briefcase.svg) no-repeat 29px 40px, 
               url(../image/est2015.jpg) no-repeat 383px 41px;
   
+}
+.about.unit-4 {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    width: 481px;
 }
 
 .testi_about h3{
@@ -544,7 +557,7 @@ main .brand {
   font-family: serif;
 }
 .pagenation {
-  margin: 30px auto 39px;
+  margin: 30px auto 15px;
 }
 .pagenation li{
   display: inline-block;
@@ -674,13 +687,13 @@ footer{
    height:100%;
    text-align: center;
 }
-.footer-left img{
+.footer-left{
     opacity: 0.3;
 }
 .footer-left .copyright{
     font-size: 12px;
     line-height: 18px;
-    opacity: 0.3;
+ 
     font-family: "PT Serif";
     font-style: italic;
     margin-top: 20px;

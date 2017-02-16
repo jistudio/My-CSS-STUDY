@@ -141,7 +141,7 @@ Unit module
  
 }
 
-.grid .col-1 { width: 60px; }
+.grid .col-1 { width: 59.5px;}
 .grid .col-2 { width: 120px; }
 .grid .col-3 { width: 180px; }
 .grid .col-4 { width: 240px; }
