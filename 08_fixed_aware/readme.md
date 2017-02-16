@@ -3,7 +3,7 @@
 
 # FROM PSD to HTML & CSS
 
-### :bulb: Develop a static homepage
+### :bulb: Build a static e-commerce website
 
 [Click here to see project >](https://jistudio.github.io/My_CSS_STUDY/08_fixed_aware/index.html)
 
