@@ -39,14 +39,13 @@ Please check out my [gh-pages] (https://github.com/jistudio/My_CSS_STUDY/tree/gh
 
 -
 
+[2 Static E-commerce Website Aware >](https://jistudio.github.io/My_CSS_STUDY/08_fixed_aware/index.html)
 
-[2 Resposive Food Webite with SASS + Flexbox >](https://jistudio.github.io/My_CSS_STUDY/02_sass_flexbox_pizza/index.html)
-
-[<img src="/ASSETS/pizza_sm.jpg" alt="vertical align">]
-(https://jistudio.github.io/My_CSS_STUDY/02_sass_flexbox_pizza/index.html)
-
+[<img src="/ASSETS/ordinary_sm.jpg" alt="vertical align">]
+(https://jistudio.github.io/My_CSS_STUDY/08_fixed_aware/index.html)
 
 -
+
 
 [3 Dribbble Website with SASS + Flexbox >](https://jistudio.github.io/My_CSS_STUDY/04_sass_flexbox_dribbble/index.html)
 
@@ -62,10 +61,11 @@ Please check out my [gh-pages] (https://github.com/jistudio/My_CSS_STUDY/tree/gh
 
 -
 
-[5 Static E-commerce Website >](https://jistudio.github.io/My_CSS_STUDY/08_fixed_aware/index.html)
+[5 Resposive Food Webite with SASS + Flexbox >](https://jistudio.github.io/My_CSS_STUDY/02_sass_flexbox_pizza/index.html)
 
-[<img src="/ASSETS/aware_sm.jpg" alt="vertical align">]
-(https://jistudio.github.io/My_CSS_STUDY/08_fixed_aware/index.html)
+[<img src="/ASSETS/pizza_sm.jpg" alt="vertical align">]
+(https://jistudio.github.io/My_CSS_STUDY/02_sass_flexbox_pizza/index.html)
+
 
 -
 
