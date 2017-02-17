@@ -1,0 +1,30 @@
+.event
+	>ul
+		+mq(md)
+			+flex-nav(center, flex-start)
+
+	.new-menu,
+	.news,
+	.welcome
+		background-color: #fff
+		padding: 24px
+		+mq(md)
+				flex-grow: 1
+				flex-basis: 190px
+
+
+	h4
+		text-align: center
+
+.new-menu
+	ul
+		+flex-nav(center)
+		li
+			width: 90px
+			height: 90px
+			background-color: #ddd
+
+.news
+	+mq(md)
+		margin: 0 10px
+

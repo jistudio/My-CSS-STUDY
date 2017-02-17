@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>PHOTO GALLERY</title>
+	<link rel="stylesheet" href="CSS/common.css">
+	<link rel="stylesheet" href="CSS/reset.css">
+	<style>
+		body{
+			background-image: url(image/bg.jpg);
+			background-repeat:no-repeat;
+			background-size:cover;
+
+		}
+		.container{
+			width:860px;
+			margin:15vh auto;
+		
+
+		
+		}
+		.container::after{
+			display: block;
+			content:'';
+			clear:both;
+		}
+		.frame{
+			width:200px;
+			height:300px;
+			background-color: gold;
+			
+			text-align:center;
+			border:10px solid #f1f1f1;
+			box-shadow: 5px 5px 5px rgba(136, 136, 136, 0.42);
+			line-height:200px;
+
+		}
+	
+		.frame1{
+			float:left;
+			margin-right:100px;
+		}
+		.frame2{
+			float:left;
+			margin-right:100px;
+
+		}
+		.frame3{
+			float:left;
+		}
+	</style>
+</head>
+<body>
+<div class="container">
+	<div class="frame frame1">
+		<img src="image/pic1.jpg" alt="klimt picture1" width="200" height="300">
+	</div>
+	<div class="frame frame2">
+		<img src="image/pic2.jpg" alt="klimt picture2" width="200" height="300">
+	</div>
+	<div class="frame frame3">
+		<img src="image/pic3.jpg" alt="klimt picture3" width="200" height="300">
+	</div>
+
+
+</div>	
+</body>
+</html>

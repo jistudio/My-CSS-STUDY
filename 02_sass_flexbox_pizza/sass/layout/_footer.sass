@@ -1,0 +1,85 @@
+footer
+	.footer-inner
+		+flex-nav
+		flex-wrap: wrap
+		background-color: #4a5d75
+
+		color: #fff
+
+		+mq(lg)
+			max-width: 1200px
+			margin: 0 auto
+			height: $base-line * 4
+			
+
+		a
+			color: #fff
+		.contact,
+		address, 
+		.sns,
+		.copyright
+			height: $base-line * 2
+
+		
+
+.contact,
+address,
+.sns,
+.copyright
+	+flex-nav(center)
+
+
+
+.contact
+	width: 100%
+	border-bottom: 1px dotted darken(#4c6079, 30%)
+	+mq(lg)
+		width: auto
+		flex-grow: 1
+		justify-content: flex-end
+		border-bottom: none
+	
+
+
+
+	li
+		flex-grow: 1
+		text-align: center
+		&:last-child
+			margin-right: 15px
+		a
+			&::before
+				content: url(../images/checked.svg)
+				padding-right: 5px
+			
+		+mq(lg)
+			flex-grow: 0
+			text-align: right
+			margin-right: 32px
+
+		
+
+
+address
+	font-style: normal
+	font-size: $base-font-size
+	padding-left: 28px
+	line-height: 14px
+
+	&::before
+		content: url(../images/map.svg)
+		padding-right: 10px
+
+	+mq(lg)
+		order: -1
+.sns
+	padding-right: 28px
+	li
+		padding: 5px 12px
+		
+.copyright
+	width: 100%
+	height: $base-line *2
+	background-color: #333
+	color: #fff
+		

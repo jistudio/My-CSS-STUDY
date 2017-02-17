@@ -1,0 +1,23 @@
+.info
+	text-align: center
+	padding-top: $base-line
+	background-color: #ddd
+	.service,
+	.hours,
+	.event-on
+		margin-bottom: $base-line
+		background-color: #fff
+		height: $base-line *8
+	
+	>ul
+		+mq(md)
+			+flex-nav
+			max-width: 660px
+			margin: 0 auto
+
+	>ul
+		>li
+			+mq(md)
+				flex-basis: 200px
+
+				

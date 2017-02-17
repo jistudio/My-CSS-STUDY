@@ -1,0 +1,144 @@
+@mixin flex-container(
+  $flex-wrap: wrap,
+  $justify-content: center, 
+  $align-items: center
+  ) {
+    display: flex;
+    flex-wrap: $flex-wrap;
+    justify-content: $justify-content;
+    align-items: $align-items;
+}
+
+
+@mixin btn-style($bg_color:$main_color, $text_color: #fff) {
+    @include flexbox;
+    width: 100%;
+    height: 120px;
+    background-color: $bg_color;
+    color: $text_color;
+    font-size: $base-font-size;
+    text-transform: uppercase;
+    curser: pointer;
+    &:hover {
+        background-color: darken($bg_color, 30%);
+    }
+}
+
+
+
+
+
+
+// font shorthand mixin
+@mixin font-shorthand( 
+	$font-size: $base-font-size, 
+  $line-height: $base-line-height,
+	$font-family: $Lato-font-family
+	) {
+    font: #{$font-size}/#{$line-height} $font-family;
+}
+
+
+
+// position layout
+@mixin position($position, $args: null) {
+  // [필수] position 속성에 $position 전달 인자 값을 설정.
+  position: $position;
+  // [선택] $args 인자 값을 전달 받았다면 @if 블록문 실행.
+  @if $args != null {
+    // 전달된 $args 리스트 내부에 top, left, bottom, right, z-index 키워드를 찾아
+    @each $dir in top, left, bottom, right, z-index {
+      // 키워드의 인덱스 숫자를 index() 함수를 사용하여 변수 $i에 참조
+      // sass는 1부터 시작
+      $i: index($args, $dir);
+      // $i 변수 값이 존재한다면 @if 블록문 실행
+      @if $i {
+        // 보간법을 사용하여 $dir 변수 값을 속성으로 사용
+        // $args 리스트 내부에서 $i+1에 해당하는 아이템을 값으로 설정
+        #{$dir}: nth($args, $i + 1);
+      }
+    } // @each
+  } // @if
+} // @mixin
+
+
+@mixin static {
+  @include position(static, null);
+}
+@mixin relative($args: null) {
+  @include position(relative, $args);
+}
+@mixin absolute($args: null) {
+  @include position(absolute, $args);
+}
+@mixin fixed($args: null) {
+  @include position(fixed, $args);
+}
+
+
+// media query mixin
+@mixin mq($breakpoint) {
+
+  // $mq-xs: "(max-width: 767px)";
+  // $mq-sm: "(min-width: 768px) and (max-width: 991px)";
+  // $mq-md: "(min-width: 992px) and (max-width: 1199px)";
+  // $mq-lg: "(min-width: 1200px)";
+
+  @if $breakpoint == xs {
+    @media #{$mq-xs} { @content; }
+  }
+  @else if $breakpoint == sm {
+    @media #{$mq-sm} { @content; }
+  }
+  @else if $breakpoint == md {
+    @media #{$mq-md}  { @content; }
+  }
+  @else if $breakpoint == lg {
+    @media #{$mq-lg}  { @content; }
+  }
+}
+
+
+//  background-image를 height값 없이 padding-bottom으로 responsive하게 만들기
+@mixin rwd-bg-image($width:null, $height:null) {
+  width: 100%;
+  height: 0;
+  background-size: cover;
+  background-position: center center;
+  padding-bottom: getPercent($height,$width);
+}
+
+// * --------------------------------
+// * Sass Draw CSS Shape
+@mixin triangle-top($color, $width) {
+  @extend %zero-wh;
+  border: {
+    bottom: $width $color solid;
+    left: $width transparent solid;
+    right: $width transparent solid;
+  }
+}
+@mixin triangle-bottom($color, $width) {
+  @extend %zero-wh;
+  border: {
+    top: $width $color solid;
+    left: $width transparent solid;
+    right: $width transparent solid;
+  }
+}
+@mixin triangle-left($color, $width) {
+  @extend %zero-wh;
+  border: {
+    right: $width $color solid;
+    top: $width transparent solid;
+    bottom: $width transparent solid;
+  }
+}
+@mixin triangle-right($color, $width) {
+  @extend %zero-wh;
+  border: {
+    left: $width $color solid;
+    top: $width transparent solid;
+    bottom: $width transparent solid;
+  }
+}

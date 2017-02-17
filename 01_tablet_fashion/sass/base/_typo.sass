@@ -1,0 +1,56 @@
+html
+	font-size: 24px
+body
+	@include font-shorthand($base-font-size, $base-line-height, $Lato-font-family)
+
+
+strong,
+span
+	display: block
+	font-weight: $Lato-font-light
+a
+	color: #000
+	font-weight: $Lato-font-light
+
+h2, h3, h4, h5, h6
+	font-weight: $Lato-font-normal
+
+
+.page_title
+	font-size: rem(28px, $base-font-size)
+	text-align: center
+
+.price
+	font-size: rem(24px, $base-font-size)
+	color: $main-color
+
+.item_name
+	font-size: rem(24px, $base-font-size)
+	color: lighten(#000, 60%)
+
+h3
+	@include font-shorthand(1.17rem, 2rem, $Lato-font-family)
+	span
+		font-size: rem(26px, $base-font-size) 
+		color: lighten(#000, 60%)
+
+.editor-pick
+	@include absolute(top rem(70px, $base-font-size) + rem(20px, $base-font-size) left 40px)
+	font-size: rem(20px, $base-font-size) 
+	color: #fff
+	background-color: transparentize(#000, .7)
+
+	font-weight: $Lato-font-light
+	padding: rem(6px, $base-font-size) rem(30px, $base-font-size)
+	border-radius: rem(50px, $base-font-size)
+
+
+	
+
+
+
+    
+
+
+
+

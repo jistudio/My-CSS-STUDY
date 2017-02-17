@@ -1,0 +1,75 @@
+.event
+	position: relative
+	margin-top: -($base-line *2)
+	z-index: 10
+	// background-color: #fff
+	>ul
+		+mq(lg)
+			padding: 0 28px
+			+flex-nav(center, flex-start)
+		
+		.new-menu,
+		.news,
+		.welcome
+			background-color: #fff
+			padding: $base-line
+			border-radius: 10px 10px 0 0
+			+mq(md)
+				padding: $base-line * 1.5
+
+
+	h4
+		+em-title
+
+.new-menu
+	ul
+		+flex-nav(center)
+		li
+			width: 90px
+			height: 90px
+			margin: 0 13px
+			&:nth-child(1)
+				a
+					background-image: url(../images/new_menu1.png)
+			&:nth-child(2)
+				a
+				 background-image: url(../images/new_menu2.png)
+			&:nth-child(3)
+				a
+					background-image: url(../images/new_menu3.png)
+			a
+				+image-replace
+				border-radius: 50%
+				
+
+
+			
+
+.news
+	span
+		display: block
+		text-align: right
+		margin-top: $base-line
+		color: $content-color
+		font-family: $apple-font-family
+		font-size: $base-font-size + 4px
+		strong
+			padding-left: 6px
+			font-weight: normal
+			font-size: $base-font-size 
+
+
+	+mq(md)
+		margin: 0 10px
+
+.welcome
+
+	span
+		display: block
+		margin-top: $base-line
+		text-align: right
+
+		a
+			+btn-style
+
+

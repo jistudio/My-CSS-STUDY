@@ -1,0 +1,32 @@
+.collection
+	margin-bottom: 50px
+	h3
+		margin: rem(50px, $base-font-size)  0
+		letter-spacing: 2px
+	ul
+		@include flex-container($flex-wrap: no-wrap)
+		li
+			position: relative
+			&:first-child
+				flex: 1.175 1 0
+				margin-right: 20px
+				a
+					display: block
+					background-image: url(../images/collection1.jpg)
+					@include rwd-bg-image(4, 3)
+			&:last-child
+				flex: 1 1 0
+				a
+					display: block
+					background-image: url(../images/collection2.jpg)	
+					@include rwd-bg-image(34, 30)
+			span
+				@include absolute(top 50% left 50%)
+				@extend %transform-center
+				font-size: rem(28px, $base-font-size) 
+				text-transform: uppercase
+				color: #fff
+				font-weight: $Lato-font-light
+
+
+	

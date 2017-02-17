@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+body{ 
+	height:100vh;
+	min-width: 20rem;
+	background-color: #0080FF;
+	font: 1rem/100vh "Spoqa Han Sans" , sans-serif;
+	text-align: center;
+}
+
+body::before{
+	content: "Mobile View";
+	font-size: 3rem;
+	color: #fff;
+}
+
+@media (min-height:600px) and (orientation:landscape){
+	body{
+		background-color: #FF8000;
+	}
+}
+
+@media (min-width:600px){
+	body{
+		background:gold;
+	}
+	body::before{
+		content: 'Desktop View';
+	}
+}
+
+@media(max-height:  300px){
+	body{
+		background-color: #808000;
+	}
+	body::before{
+		content: 'Mobile View + Min Height';
+
+	}
+}

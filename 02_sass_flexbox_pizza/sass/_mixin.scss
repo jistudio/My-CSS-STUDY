@@ -1,0 +1,69 @@
+// media query mixin
+@mixin mq($breakpoint) {
+    @if $breakpoint==md {
+        @media #{$mq-md} {
+            @content;
+        }
+    }
+    @else if $breakpoint==lg {
+        @media #{$mq-lg} {
+            @content;
+        }
+    }
+}
+
+@mixin flex-nav($justify-content: space-between, $align-items: center) {
+    display: flex;
+    justify-content: $justify-content;
+    align-items: $align-items;
+}
+
+@mixin alink($text: #fff, $hover: lighten($text, 30%)) {
+    color: $text;
+    font-size: $base-font-size;
+    font-family: $opnesans-font-family;
+    &:hover { 
+      color: $hover;
+    }
+}
+
+@mixin btn-style($btn-color: $point-color){
+  color: $btn-color;
+  padding: 6px 15px;
+  border: 1px solid #e2e2e2;
+  background-color: #e2e2e2;
+  background-image: linear-gradient(to bottom, #fff, #e2e2e2);
+  font-size: $base-font-size;
+  text-transform: uppercase;
+  border-radius: 3px; 
+}
+
+
+@mixin image-replace($bg-size: 100%){
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-indent: -9999%;
+  background-position: center;
+  background-size: $bg-size;
+}
+
+
+@mixin em-title( $font-size: 22px, $color: $point-color){
+  font-size: $font-size;
+  line-height: 22px;
+  font-family: $apple-font-family;
+  color: $color;
+  text-align: center;
+  margin-bottom: $base-line;
+}
+
+@mixin sudo-deco( $top: 0, $left: 50% ){
+      display: block;
+      position: absolute;
+      top: $top;
+      left: $left;
+      transform: translateX(-50%);
+}
+
+

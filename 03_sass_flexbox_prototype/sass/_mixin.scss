@@ -1,0 +1,19 @@
+// media query mixin
+@mixin mq($breakpoint) {
+
+
+  @if $breakpoint == md {
+    @media #{$mq-md}  { @content; }
+  }
+  @else if $breakpoint == lg {
+    @media #{$mq-lg}  { @content; }
+  }
+}
+
+@mixin flex-nav($justify-content:space-between, $align-items: center){
+	display: flex;
+
+	justify-content: $justify-content;
+	align-items: $align-items;
+	
+}
